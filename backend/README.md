@@ -19,7 +19,7 @@ This is the backend part of the full-stack application built using Flask. The ba
 
 2. **Create a virtual environment** (optional but recommended):
    ```
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
