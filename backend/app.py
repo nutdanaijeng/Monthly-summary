@@ -22,7 +22,7 @@ def serialize_doc(doc):
         data["date"] = data["date"].isoformat()
     return data
 
-
+#GET
 @app.route("/api/transactions", methods=["GET"])
 def get_transactions():
     month = request.args.get("month")  # format: YYYY-MM
